@@ -157,3 +157,10 @@ a{color:var(--accent)}
 #screenDetail pre{
   font-size: var(--lyrics-size);
 }
+
+.logoImg{
+  width: 70%;
+  height: 70%;
+  object-fit: contain;
+  display: block;
+}

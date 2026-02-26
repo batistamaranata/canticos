@@ -1,0 +1,968 @@
+[
+  {
+    "id": 1,
+    "number": "001",
+    "title": "SIRVO A JESUS AMADO",
+    "lyrics": "Sirvo a Jesus amado, que há muito ressurgiu;\nEu sei que está presente, e sei que me remiu;\nAmor infindo eu sinto, por onde quer que eu vá,\nE no momento extremo bem perto está.\n\nCORO\nJesus, Jesus, me livra de pecar.\nComigo está, comigo vai,\nNão tenho mais pesar;\nJesus, Jesus, quer dar a salvação\nE quer viver, reinar em mim,\nE em meu coração.\n\nEm tudo que me cerca só vejo seu amor;\nSe em lutas eu fraquejo, renova-me o vigor;\nBem sei que o tenho a frente,\nBem sei que me conduz,\nAté a sua volta com brilho e luz.\n\nAlegra-te, ó crente, cantando com fervor,\nEternas aleluias a Cristo, Rei, Senhor,\nAuxílio dos que buscam, refúgio dos que crêem,\nÉ sempre nossa fonte de todo o bem."
+  },
+  {
+    "id": 2,
+    "number": "002",
+    "title": "JESUS GOSTA TANTO DE MIM",
+    "lyrics": "Jesus gosta tanto de mim, de mim,\nde mim, de mim - sem fim\nEu sei que Ele gosta de mim, de mim,\nA Bíblia diz!\n\nJesus gosta tanto de mim, de mim,\nde mim, de mim - sem fim!\nQue veio nascer em Belém pra mim\npra me salvar!\n\nJesus gosta tanto de mim, de mim,\nde mim, de mim - sem fim!\nQue veio morrer numa cruz por mim\npra me salvar!\n\nJesus gosta tanto de mim, de mim,\nde mim, de mim - sem fim!\nQue quer vir no meu coração morar Meu salvador!\n(Repetir a primeira estrofe)"
+  },
+  {
+    "id": 3,
+    "number": "003",
+    "title": "VOU TRABALHAR",
+    "lyrics": "Vou trabalhar, servir, velar,\nVou a Jesus com fé orar.\nVou contemplar Seu rosto logo mais, sim, vou!\nA Sua voz eu hei de ouvir,\nSua vontade vou cumprir,\nVigiando espero a Sua vinda!"
+  },
+  {
+    "id": 4,
+    "number": "004",
+    "title": "VAMOS SUBINDO SEMPRE",
+    "lyrics": "Vamos subindo sempre, Deus conosco vai,\nVamos subindo sempre para o lar do Pai,\nDeixando tudo, vamos; não iremos sós.\nVamos subindo sempre, Eu e vós."
+  },
+  {
+    "id": 5,
+    "number": "005",
+    "title": "CRISTO É AMIGO SEM IGUAL",
+    "lyrics": "Cristo é amigo sem igual,\nMeu fiel amigo eternal,\nSalva-me e guarda os pés para não cair,\nMesmo no acordar ou no dormir.\nCristo é amigo sem igual,\nEm prosperidade ou vendaval.\nNada me afasta; Sua graça basta;\nCristo é amigo sem igual."
+  },
+  {
+    "id": 6,
+    "number": "006",
+    "title": "SEGUIREI A CRISTO",
+    "lyrics": "Seguirei a Cristo,\nApesar da tentação ao meu redor.\nJesus morreu, salvou-me,\nE exige que O sirva com amor.\nEu um dia estarei\nLá na glória com Jesus,\nMas agora vou servi-lo, sim,\nLevando minha cruz.\nSeguirei a Cristo,\nTé o dia quando Ele me chamar."
+  },
+  {
+    "id": 7,
+    "number": "007",
+    "title": "COM CRISTO NO BARCO",
+    "lyrics": "Com Cristo no barco, tudo vai muito bem,\nVai muito bem, vai muito bem.\nCom Cristo no barco, tudo vai muito bem,\nE passa o temporal.\nPassa o temporal. Passa o temporal.\nCom Cristo no barco, tudo vai muito bem,\nE passa o temporal."
+  },
+  {
+    "id": 8,
+    "number": "008",
+    "title": "SABES TU QUE RENASCESTE?",
+    "lyrics": "Sabes tu que renasceste, irmão?\nSabes tu que és nova criação?\nQue o Espírito de Deus –\nTestemunha para os seus,\nJá limpou teu coração?\nEstás pronto, se o Senhor vier\nOu tua alma recolher?\nO futuro, como for,\nTu enfrentas sem pavor?\nSabes tu que renasceste, meu irmão?"
+  },
+  {
+    "id": 9,
+    "number": "009",
+    "title": "A GRAÇA ETERNA DE JESUS",
+    "lyrics": "A graça eterna de Jesus\nQue veio me libertar,\nA mim tão grande pecador;\nOh, graça singular!\n\nTal graça o medo me levou\nDesde o dia em que eu cri,\nE bem feliz me transformou,\nTal nunca mereci!\n\nPerigos e horrores passarei\nNa peregrinação,\nMas pela graça alcançarei\nCelestial mansão.\n\nE quando no lar celestial\nPor tempos sem cessar,\nLouvor daremos eternal\nA quem nos quis salvar."
+  },
+  {
+    "id": 10,
+    "number": "010",
+    "title": "PURIFICADO COM SANGUE",
+    "lyrics": "Purificado com sangue estou.\nQual neve me tornou;\nÁgua da vida em Jesus bebi,\nSatisfeito me senti.\nPara Jesus lá na cruz eu olhei,\nE o meu fardo ao chão deixei;\nCantando vou: Glória ao senhor!\nGlória a Cristo, nosso Deus!"
+  },
+  {
+    "id": 11,
+    "number": "011",
+    "title": "AS CRIANCINHAS",
+    "lyrics": "As criancinhas de toda nação\nSeja África, China, Brasil ou Japão\nJesus ama e quer Boas Novas dar.\nA elas, pois, vamos a Bíblia anunciar."
+  },
+  {
+    "id": 12,
+    "number": "012",
+    "title": "TEM PROBLEMAS?",
+    "lyrics": "Tem problemas? Pode orar!\nDeus já sabe; quer ajudar.\nNão seja duvidoso, pois Deus é poderoso.\nPor que se preocupa tanto? Pode orar!"
+  },
+  {
+    "id": 13,
+    "number": "013",
+    "title": "NÃO TEMEREI",
+    "lyrics": "Escuridão, temor ao meu redor;\nTrevas densas, nada de fulgor.\nCristo promete: \"Contigo estarei\".\nNão temerei, não temerei."
+  },
+  {
+    "id": 14,
+    "number": "014",
+    "title": "PORTAL DA SALVAÇÃO",
+    "lyrics": "No perpassar da vida aqui avista-se um portão.\nFoi Deus que o fez por seu amor,\nPortal da salvação.\nMilhares desta porta já passaram para além,\nQualquer criança pode abrir e atravessar também!\n\nJesus morrendo sobre a cruz, tal porta destrancou.\nEscárneo, insulto, amargo fel, bondoso, suportou.\nE foi por vós e foi por mim que humilde padeceu\nE as criancinhas podem ter feliz lugar no céu!\n\nRessuscitou e vivo está na glória com o Pai.\nO seu convite: “Vinde a mim”, Meninos, escutai!\n“Por vós a vida e tudo Eu dei,\nPor vós sofri e morri!”\nSe credes nEle ireis morar com ele sempre ali!"
+  },
+  {
+    "id": 15,
+    "number": "015",
+    "title": "PARA O LESTE",
+    "lyrics": "Para o leste, para o oeste,\nPara o norte e para o sul.\nVamos nós, vamos nós, boas novas levar.\nTanto ao preto, como ao branco,\nAmarelo ou de cor.\nVamos nós, vamos nós, boas novas levar."
+  },
+  {
+    "id": 16,
+    "number": "016",
+    "title": "A VOZ DE CRISTO",
+    "lyrics": "A voz de Cristo, meu senhor,\nMe enche de seu grande amor;\nO rosto de jesus,\nO vejo sempre onde me conduz.\nAmor, amor que não tem fim,\nA graça que salvou a mim,\nJesus de tudo já me deu,\nE é com ele que eu vou!"
+  },
+  {
+    "id": 17,
+    "number": "017",
+    "title": "PESCADOR DE HOMENS",
+    "lyrics": "Pescador de homens farei,\nSim, eu farei! Sim, eu farei!\nPescador de homens farei,\nA quem Me seguir.\nA quem Me seguir, a quem Me seguir!\nPescador de homens farei, a quem me seguir.\n\nCristo chama: Ó, vinde a Mim!\nÓ, vinde a mim! Ó, vinde a mim!\nCristo chama: Ó, vinde a mim!\nE Eu darei a paz!\nE Eu darei a paz! E Eu darei a paz!\nCristo chama: Ó, vinde a mim! E Eu darei a paz!"
+  },
+  {
+    "id": 18,
+    "number": "018",
+    "title": "IDE ! ORAI! DAI!",
+    "lyrics": "Ide já! É ordem de Jesus!\nContar a todas as nações\nQue andando vão sem luz\nA Boa Nova de perdão,\nQue gozo traz ao coração!\nOh! Quem quer ir?\nOh! Quem quer ir?\n\nSempre orai! A Bíblia manda orar\nPor todos quantos na seara\nEstão a mourejar;\nPois muitos vão se desviar\nPor não haver quem vá pregar.\nQuem quer orar?\nQuem quer orar?\n\nDaí, daí, daí! Há grande gozo em dar;\nDo vosso bolso e vosso esforço\nTudo consagrar!\nDevemos ter mãos liberais;\nJesus merece muito mais.\nOh! Quem quer dar?\nOh! Quem quer dar?"
+  },
+  {
+    "id": 19,
+    "number": "019",
+    "title": "CRISTO VOLTA",
+    "lyrics": "Talvez de manhã no romper da aurora,\nQuando o brilho do sol manda as trevas embora,\nQue Cristo virá entre nuvens de glória,\nPra levar deste mundo os seus.\n\nCORO\nQuando, Ó quando será, Senhor,\nQue vamos cantar, “Cristo volta”?\nAleluia, Aleluia, amém!\nAleluia, amém.\n\nMeio-dia será? Ou com sombras caindo?\nTalvez meia-noite com todos dormindo?\nAs trevas serão dissipadas com glória,\nQuando Cristo buscar os seus.\n\nPara os salvos a morte será derrotada;\nNem choro, nem dores no céu tem entrada.\nNas nuvens reunidos com Cristo na glória,\nTodos que em Jesus tem fé."
+  },
+  {
+    "id": 20,
+    "number": "020",
+    "title": "A RAZÃO PORQUE EU CANTO",
+    "lyrics": "Eis a razão porque eu canto.\nEis porque sempre os sinos tocam.\nCristo todo o mal levou;\nVitorioso sempre sou.\nEis a razão porque eu canto!"
+  },
+  {
+    "id": 21,
+    "number": "021",
+    "title": "GUERRAS PODEM VIR",
+    "lyrics": "Guerras podem vir, o mundo todo enlouquecer,\nMas sei que eu salvo sou.\nTerra, mar, o céu, sim! Tudo pode desvanecer,\nMas sei que eu salvo sou.\nCristo, meu salvador, me guardará, eu sei,\nSim, me sustentará, com ele andarei;\nVenha o que for, seguro estou no meu senhor!\nOh, sei que eu salvo sou, sei que eu salvo sou!"
+  },
+  {
+    "id": 22,
+    "number": "022",
+    "title": "GALARDÃO",
+    "lyrics": "Ao terminar a luta, temos galardão,\nTemos galardão, temos galardão\nAo terminar a luta, temos galardão\nNas mansões do nosso Pai.\nGalardão, galardão, na santa cidade!\nAo terminar a luta, temos galardão\nNas mansões do nosso Pai."
+  },
+  {
+    "id": 23,
+    "number": "023",
+    "title": "MAIS VASTO QUE O MUNDO",
+    "lyrics": "Mais vasto que o mundo,\nInda mais alto que os céus,\nMais fundo que os mares é\nO amor de meu Deus;\nEu sou tão fraquinho;\nTenho porém, no Senhor,\nSanta alegria e prazer todo o dia\nNo seu amor."
+  },
+  {
+    "id": 24,
+    "number": "024",
+    "title": "VENCEDOR SEREI",
+    "lyrics": "Vencedor serei, vencedor serei,\nNada me espanta, A causa é santa,\nVencedor serei,\nVencedor serei, vencedor serei\nCom meu Jesus e sua cruz, vencedor serei."
+  },
+  {
+    "id": 25,
+    "number": "025",
+    "title": "EU AMO AO MEU SENHOR",
+    "lyrics": "Eu amo ao meu Senhor,\nMeu Senhor, meu Senhor.\nEu amo ao meu Senhor, sim, sim, sim.\n\nEle se deu por mim,\nSim por mim, sim por mim.\nEle se deu por mim, sim, sim, sim.\n\nQuero servi-lo mais\nMuito mais, muito mais\nQuero servi-lo mais, sim, sim, sim."
+  },
+  {
+    "id": 26,
+    "number": "026",
+    "title": "EU PERTENÇO A CRISTO (A)",
+    "lyrics": "Eu pertenço a Cristo, pois me comprou.\nPara o seu serviço me consagrou.\nEle é quem governa todo o meu ser.\nEu entrego a Cristo o meu viver."
+  },
+  {
+    "id": 27,
+    "number": "027",
+    "title": "CONSTRUÍMOS CADA DIA",
+    "lyrics": "Construímos cada dia,\nNo folguedo ou no labor,\nNão com prego, nem martelo,\nComo faz o construtor;\nUm edifício espiritual,\nSeguindo um plano divinal,\nVamos todos construir\nUm edifício para o porvir.\n\nConstruímos cada dia,\nCom sinceros corações,\nÉ Jesus nosso alicerce,\nE as pedrinhas são ações.\nMuitos seus prédios vão construir\nNa frouxa areia e vão ruir.\nVamos, pois, edificar.\nEm Cristo, nossa pedra angular!"
+  },
+  {
+    "id": 28,
+    "number": "028",
+    "title": "PERDOADOS SÃO",
+    "lyrics": "Perdoados são, todos os meus pecados vis.\nMelodias mil, canto porque salvo sou.\nCristo vive já, vive no meu coração.\nEm breve volta pra me arrebatar,\nE com Ele sempre reinarei."
+  },
+  {
+    "id": 29,
+    "number": "029",
+    "title": "PARE!",
+    "lyrics": "Pare! Eu vou contar-lhe\nO que Cristo fez por mim. (bis)\nEle me salvou e me deu perdão,\nAgora vive em meu coração.\nPare! Eu vou contar-lhe\nO que Cristo fez por mim."
+  },
+  {
+    "id": 30,
+    "number": "030",
+    "title": "ZAQUEU",
+    "lyrics": "Zaqueu, pequeno como um anão, queria ver Jesus.\nSubiu pois numa árvore, tal\nQue pudesse vê-lo passar.\nE o salvador passando, o viu\nE então assim falou:\n“Zaqueu, desce depressa, (falado)\nPois em tua casa eu vou pousar.” (Bis)"
+  },
+  {
+    "id": 31,
+    "number": "031",
+    "title": "COM PENA DE OURO",
+    "lyrics": "Com pena de ouro escrito está,\nEscrito está, escrito está.\nCom pena de ouro escrito está,\nMeu nome lá no céu.\nLá no céu, meu nome escrito está,\nLá no céu, meu nome escrito está.\nCom pena de ouro escrito está,\nEscrito está, escrito está\nCom pena de ouro escrito está,\nMeu nome lá no céu."
+  },
+  {
+    "id": 32,
+    "number": "032",
+    "title": "FOI SÓ JESUS",
+    "lyrics": "Foi só Jesus quem me salvou,\nQuem sobre a cruz me libertou;\nQue em vez de réu, a pena suportou:\nQuis morrer Jesus por mim!\nPois a Jesus, que ressurgiu\nE salvação nos garantiu\nPor seu amor, que nos remiu,\nLouvá-lo-ei sem fim!"
+  },
+  {
+    "id": 33,
+    "number": "033",
+    "title": "CADA DIA ME DIRIGE",
+    "lyrics": "Cada dia me dirige. Cada dia me protege.\nCada dia sinto seu amor por mim.\nCada dia há coisa nova. Cada dia vejo a prova,\nDo poder, do grande amor,\nDe meu Senhor e rei."
+  },
+  {
+    "id": 34,
+    "number": "034",
+    "title": "JESUS SABE BEM O CAMINHO",
+    "lyrics": "Jesus sabe bem o caminho; Eu preciso só segui-lo.\nJesus sabe bem o caminho; Eu preciso só segui-lo.\nHoje me dá, e amanhã, a força que eu necessito.\nJesus sabe bem o caminho; Eu preciso só segui-lo."
+  },
+  {
+    "id": 35,
+    "number": "035",
+    "title": "CRISTO É MEU",
+    "lyrics": "Cristo é meu, sei que Cristo é meu!\nÉ meu mestre, meu salvador,\nCanto sempre o seu louvor.\nCristo é meu, sei que Cristo é meu!\nCada dia feliz eu vou, porque Cristo é meu!\n\nSalvo sou, sei que salvo sou.\nCristo veio, morreu na cruz,\nPara dar-me perdão e luz.\nSalvo sou, sei que salvo sou,\nCada dia feliz eu vou, porque salvo sou!"
+  },
+  {
+    "id": 36,
+    "number": "036",
+    "title": "SEMPRE FIEL É CRISTO",
+    "lyrics": "Sempre fiel é meu salvador\nGuia, guarda, satisfaz minha alma com seu amor.\nBrilho ou sombra, não mudará,\nCristo, meu mestre, fiel será!"
+  },
+  {
+    "id": 37,
+    "number": "037",
+    "title": "QUANDO O MAL TE QUER VENCER",
+    "lyrics": "Quando o mal te quer vencer\nFirma os olhos em Cristo,\nEle quer te defender,\nFirma os olhos com fé.\nCristo pode te livrar, nele deves confiar.\nÉ fiel e bom sem par, firma os olhos com fé."
+  },
+  {
+    "id": 38,
+    "number": "038",
+    "title": "FALEMOS DE CRISTO",
+    "lyrics": "Falemos de Cristo, Ele é o salvador,\nSenhor tão singular, do mundo criador.\nEle foi nos preparar, mansões celestiais;\nFalemos de Cristo mais e mais."
+  },
+  {
+    "id": 39,
+    "number": "039",
+    "title": "MEU DESEJO",
+    "lyrics": "Meu desejo: Ser como Cristo.\nMeu desejo: Ser-lhe fiel.\nSer como Cristo, Ó, sim eu quero\nViver pra Cristo, meu salvador."
+  },
+  {
+    "id": 40,
+    "number": "040",
+    "title": "EU SOU A PORTA",
+    "lyrics": "“Eu sou a porta”, disse Jesus\n“Se alguém entrar por mim\nSalvo será. Outro não houve,\nNem haverá. Vem, entra já!”"
+  },
+  {
+    "id": 41,
+    "number": "041",
+    "title": "A PORTA É UMA SÓ",
+    "lyrics": "A porta é uma só, porém dois lados há;\nDentro e fora, você onde está?\nA porta é uma só, porém dois lados há;\nEu já estou dentro, você onde está?"
+  },
+  {
+    "id": 42,
+    "number": "042",
+    "title": "QUERO VER O ROSTO DE JESUS",
+    "lyrics": "Tenho no meu coração saudades,\nSim, anelo de estar com meu Senhor.\nEstou cansado, tão cansado,\nDe caminhar aqui,\nQuero ver o rosto de Jesus."
+  },
+  {
+    "id": 43,
+    "number": "043",
+    "title": "SEMELHANTE A CRISTO",
+    "lyrics": "Semelhante a Cristo, algum dia,\nSim, semelhante a Cristo, quando a Ele vir.\nSemelhante a Cristo, hei de ser - Aleluia!\nQue grande promessa do meu Senhor!"
+  },
+  {
+    "id": 44,
+    "number": "044",
+    "title": "ADMIRÁVEL É MEU BOM SENHOR",
+    "lyrics": "Admirável que é, admirável Jesus,\nAdmirável é meu bom Senhor.\nJá se ouviu, já se viu e na Bíblia escrito está,\nAdmirável é meu salvador."
+  },
+  {
+    "id": 45,
+    "number": "045",
+    "title": "CANTA, RI E ORA",
+    "lyrics": "Canta e mudarás toda treva em luz;\nCantarás, sim, cantarás e a sombra se desfaz.\nRi e mudarás todo espinho em flor;\nSorrirás, sim, sorrirás, e o espinho se desfaz.\nSombra se desfaz, sombra se desfaz,\nQuando orares sim, terão as sombras fim.\nCanta, ri e faz, sempre a oração;\nCanto ou riso ou prece, traz, ao coração a paz."
+  },
+  {
+    "id": 46,
+    "number": "046",
+    "title": "VOLVE OS OLHOS",
+    "lyrics": "Volve os olhos a Cristo\nContempla sua face de amor\nQuando ao teu redor há perigos mil,\nVolve o olhar para o teu Redentor."
+  },
+  {
+    "id": 47,
+    "number": "047",
+    "title": "MEU SENHOR BENDITO",
+    "lyrics": "Meu Senhor bendito, Eis-me aqui.\nTeu poder me ampara - Até ao fim.\nMeu Senhor bendito, Eis-me aqui.\nSou teu instrumento até ao fim."
+  },
+  {
+    "id": 48,
+    "number": "048",
+    "title": "APRENDEI DE MIM",
+    "lyrics": "Aprendei de mim, aprendei de mim,\nAprendei de mim, foi Jesus que disse assim.\n\nVamos nós aprender de Jesus,\nAprender uns aos outros amar,\nDesprender-se das trevas e ir à luz,\nSó Jesus pode nos ensinar.\n\nAprendei de mim, aprendei de mim,\nAprendei de mim, Foi Jesus que disse assim."
+  },
+  {
+    "id": 49,
+    "number": "049",
+    "title": "HÁ UMA LINDA CANÇÃO",
+    "lyrics": "Há uma linda canção de amor,\nDentro do meu coração;\nCristo me deu plena paz e perdão,\nOh, eu sou feliz!\nOh, eu sou feliz, feliz,\nOh, eu sou feliz,\nCristo me deu plena paz e perdão.\nOh, eu sou feliz!"
+  },
+  {
+    "id": 50,
+    "number": "050",
+    "title": "O SENHOR É O MEU PASTOR",
+    "lyrics": "O Senhor é o meu pastor, Ele guiará pra sempre.\nPelas águas tranquilas, Ele guiará pra sempre.\nSempre, sempre, Ele guiará pra sempre.\nSempre, sempre, Ele guiará pra sempre."
+  },
+  {
+    "id": 51,
+    "number": "051",
+    "title": "TODO AQUELE QUE QUISER",
+    "lyrics": "Diz Jesus que todo o que quiser,\nTodo o que quiser, todo o que quiser,\nDiz Jesus que todo o que quiser,\nTodo o que quiser é vir.\nEu me alegro em que Ele me incluiu,\nEle me incluiu, Ele me incluiu;\nEu me alegro em que Ele me incluiu.\nQuando Ele disse: todo o que quiser é vir."
+  },
+  {
+    "id": 52,
+    "number": "052",
+    "title": "FIRME NA ROCHA",
+    "lyrics": "Firme na Rocha, Aleluia!\nFirme na Rocha estou. Aleluia!\nCristo me salvou de todo o mal.\nFirme na Rocha estou."
+  },
+  {
+    "id": 53,
+    "number": "053",
+    "title": "NADA ME AFASTA",
+    "lyrics": "Nada me afasta de Jesus Cristo\nSua presença posso gozar.\nNada me impede que eu seja benquisto.\nQuem de Jesus me pode apartar?"
+  },
+  {
+    "id": 54,
+    "number": "054",
+    "title": "SE MEU CÁLIX TRANSBORDAR",
+    "lyrics": "Se meu cálix, feliz, transbordar, (bis)\nPrazer eu tenho em orar, e me ponho a cantar,\nSe meu cálix feliz transbordar.\n\nSe acontece, vazio, ele estar, (bis)\nEu tenho pressa em clamar, e de Deus duvidar,\nSe acontece, vazio, ele estar."
+  },
+  {
+    "id": 55,
+    "number": "055",
+    "title": "HAVEMOS DE ENCONTRAR-NOS",
+    "lyrics": "Havemos de encontrar-nos\nAlém do Jordão. Que belo será!\nHavemos de encontrar-nos\nAlém do Jordão alegrias há.\nSe tu chegares primeiro que eu,\nOh! Dize que eu também chego já,\nHavemos de encontrar-nos\nAlém do Jordão alegrias há."
+  },
+  {
+    "id": 56,
+    "number": "056",
+    "title": "ASSIM DEUS NOS AMOU",
+    "lyrics": "Assim Deus nos amou, Até seu filho dar,\nO qual morreu na cruz, a fim de nos salvar,\nUm dia há de vir, com glória a reluzir:\nTal é seu amor sem par!"
+  },
+  {
+    "id": 57,
+    "number": "057",
+    "title": "ONTEM, HOJE, PARA SEMPRE",
+    "lyrics": "Ontem, hoje, e para sempre, o mesmo é meu Jesus.\nTudo muda, menos ele. Glória ao salvador,\nGlória ao salvador, Glória ao salvador!\nTudo muda, menos ele, Glória ao salvador."
+  },
+  {
+    "id": 58,
+    "number": "058",
+    "title": "BRILHO CELESTE",
+    "lyrics": "Brilho celeste, brilho celeste,\nEnche a minha alma a glória do céu.\nBrilho celeste, brilho celeste,\nAleluia! Jesus é meu."
+  },
+  {
+    "id": 59,
+    "number": "059",
+    "title": "ÁGUA NÃO DO POÇO",
+    "lyrics": "Água não do poço Jesus deu à mulher (bis)\nE ela foi contente;\nVoltou com muita gente\nPra beber tal água,\nQue é para quem quiser.\n\nÁgua não do poço, Jesus agora dá. (Bis)\nQuem quer que sede tenha,\nE a Jesus Cristo venha,\nÁgua eterna e viva de graça beberá."
+  },
+  {
+    "id": 60,
+    "number": "060",
+    "title": "COM A ARMADURA",
+    "lyrics": "Com a armadura de meu Deus,\nO inimigo vou vencer.\nCom a Bíblia e com a fé,\nVou permanecer.\nFirme, sim, firme sim, firme vou ficar. (Bis)"
+  },
+  {
+    "id": 61,
+    "number": "061",
+    "title": "COMO O SOL BRILHARÁ",
+    "lyrics": "Quem traz almas pra Cristo.\nComo o sol brilhará! (3 vezes)\nQuem traz almas pra Cristo,\nComo o sol brilhará, e Deus o recompensará.\n\nQuem ora sempre e sempre\nComo o sol brilhará! (3 vezes)\nQuem ora sempre e sempre,\nComo o sol brilhará, e Deus o recompensará.\n\nQuem dá com alegria,\nComo o sol brilhará! (3 vezes)\nQuem dá com alegria,\nComo o sol brilhará, e Deus o recompensará."
+  },
+  {
+    "id": 62,
+    "number": "062",
+    "title": "VOU VIAJANDO",
+    "lyrics": "Vou viajando em Deus confiando;\nVou na trilha que conduz, às moradas de Jesus.\nDa terra à glória, contando a história\nDo Senhor que me salvou por sua cruz."
+  },
+  {
+    "id": 63,
+    "number": "063",
+    "title": "TODOS PARA CRISTO",
+    "lyrics": "Todos para Cristo, eis nossa oração.\nTodos para Cristo, mesmo em diversão\nA todos vamos declarar que há vida em Cristo;\nEle é nossa luz.\nNele tudo temos, ó vinde aceitar Jesus. (Fine)\nJovens crentes,\nCristo a todos chama. (D.C. al fine)"
+  },
+  {
+    "id": 64,
+    "number": "064",
+    "title": "CRISTO É PRECIOSO",
+    "lyrics": "Cristo é precioso,\nLá dos céus o mais formoso.\nEle é nosso amigo eterno,\nBondoso protetor.\nMorrendo, quis salvar-nos;\nRessurreto, quer guardar-nos,\nPara o céu há de levar-nos:\nUm troféu do seu grande amor."
+  },
+  {
+    "id": 65,
+    "number": "065",
+    "title": "AVANÇAE, AVANÇAE",
+    "lyrics": "Avançae, avançae, irmãos!\nA vitória é nossa meta, sim,\n“Seu pecado deixar”, é a mensagem pra gritar,\nAos perdidos em alta voz.\nVamos pelejar, pra Jesus pregar.\nSeus soldados somos nós."
+  },
+  {
+    "id": 66,
+    "number": "066",
+    "title": "MEU SENHOR, VEM A MIM",
+    "lyrics": "Meu Senhor vem a mim, vem a mim.\nMeu Senhor vem a mim, vem a mim.\nMeu Senhor vem a mim, vem a mim.\nMeu Senhor vem a mim.\n\nAos que choram meu Senhor consolará.\nAos que choram meu Senhor consolará.\nAos que choram meu Senhor consolará.\nMeu Senhor consolará."
+  },
+  {
+    "id": 67,
+    "number": "067",
+    "title": "O SENHOR, COM AMOR",
+    "lyrics": "O Senhor, com amor,\nPede agora o vosso coração.\nVinde abrir, permitir\nQue ele more em vosso coração."
+  },
+  {
+    "id": 68,
+    "number": "068",
+    "title": "ESTOU À PORTA",
+    "lyrics": "Estou, estou à porta, batendo já, sim, já.\nEstou, estou à porta, batendo já, sim, já.\nSe alguém ouvir minha voz,\nSe alguém ouvir minha voz,\nE sua porta abrir, abrir a mim,\nEu entrarei."
+  },
+  {
+    "id": 69,
+    "number": "069",
+    "title": "GRANDE FARDO",
+    "lyrics": "Grande fardo de pecados meus\nCristo carregou sobre si.\nMeu pesar em paz se transformou\nDesde que a Jesus eu conheci.\nSigo alegre no caminho para os céus,\nDesfrutando a livre graça de Jesus\nPois o fardo dos pecados meus\nCristo carregou sobre a cruz."
+  },
+  {
+    "id": 70,
+    "number": "070",
+    "title": "BUSCAI PRIMEIRO",
+    "lyrics": "Buscai primeiro o reino de Deus,\nE a sua justiça.\nE acrescentadas estas cousas vos serão.\nAleluia, Aleluia.\n\nCORO\nAleluia, Aleluia, Aleluia, Aleluia, Aleluia.\n\nNem só de pão o homem viverá,\nMas de toda a palavra\nQue procede da boca de Deus,\nAleluia, Aleluia."
+  },
+  {
+    "id": 71,
+    "number": "071",
+    "title": "EU TENHO GOZO, SIM",
+    "lyrics": "Eu tenho gozo sim, Dentro do meu coração.\nCristo me salvou, e me perdoou;\nDa escravidão, do mal me libertou.\nEu tenho gozo, sim, gozo que Jesus me deu.\nGozo permanente, meu eternamente.\nNesta vida e lá no céu."
+  },
+  {
+    "id": 72,
+    "number": "072",
+    "title": "OH, IRMÃO FELIZ ESTÁ QUANDO ANDA...",
+    "lyrics": "Oh, irmão, feliz está quando anda\nNo caminho de Jesus o Rei.\nOh, irmão, feliz está quando anda\nNo caminho de Jesus o Rei.\nPois é puro, é seguro,\nE nos leva ao lar da glória.\nOh, irmão, feliz está quando anda\nNo caminho de Jesus o Rei."
+  },
+  {
+    "id": 73,
+    "number": "073",
+    "title": "TÃO POBRE SOU",
+    "lyrics": "Tão pobre sou, que darei Jesus?\nUma ovelhinha que o pastor conduz?\nUm presente ou uma boneca em sua mão?\nJá sei! Eu vou dar-lhe o meu coração!"
+  },
+  {
+    "id": 74,
+    "number": "074",
+    "title": "DANIEL ORAVA",
+    "lyrics": "Daniel orava a Deus três vezes ao dia.\nLogo em tempo de aflição, Deus o socorria.\nQuando foi aos leões pelo rei jogado,\nNão temeu mas confiou e foi libertado!"
+  },
+  {
+    "id": 75,
+    "number": "075",
+    "title": "BENÇÃOS CONSTANTES",
+    "lyrics": "Bênçãos constantes de um Deus todo amor.\nInspiração para vida de fé.\nBoa mensagem ao pecador,\nLuz que nas trevas me guarda em pé.\nImpulso, força, coragem, vigor,\nAcho na Bíblia, Senhor!"
+  },
+  {
+    "id": 76,
+    "number": "076",
+    "title": "SOMENTE SER",
+    "lyrics": "Somente ser o que Deus ordenar\nToda a hora do meu viver.\nInteiramente submisso ao Senhor.\nTodo o passo que aqui eu der.\nNas mãos do oleiro ser barro só,\nPara que Ele me vá moldar.\nSomente ser o que Deus preferir.\nTodo o passo do meu andar."
+  },
+  {
+    "id": 77,
+    "number": "077",
+    "title": "NA ROCHA FIRME",
+    "lyrics": "Na rocha firme o sábio construiu,\nA sua casa ele construiu.\nNa rocha firme o sábio construiu -\nE a chuva já caiu.\nA chuva caiu e a água subiu, (bis - 2)\nMas a casa na rocha ficou!\n\nNa frouxa areia o néscio construiu;\nA sua casa ele construiu.\nNa frouxa areia o néscio construiu -\nE a chuva já caiu.\nA chuva caiu e a água subiu. (bis - 2)\nE a casa na areia TOMBOU!"
+  },
+  {
+    "id": 78,
+    "number": "078",
+    "title": "SANTO ESPÍRITO",
+    "lyrics": "Santo Espírito, enche a minha vida;\nPois por Cristo eu quero brilhar.\nSanto Espírito, enche a minha vida;\nUsa-me as almas a ganhar.\n\nAleluia, Aleluia, Aleluia dou a Cristo, Rei.\nAleluia, Aleluia, Aleluia dou ao Rei."
+  },
+  {
+    "id": 79,
+    "number": "079",
+    "title": "É FÁCIL DE ENTENDER",
+    "lyrics": "É fácil de entender, tão claro como a luz;\nEm meu lugar pra me salvar,\nJesus morreu na cruz.\nÉ crer só nEle agora de todo o coração,\nMeninos, sem demora, aceitai a salvação!"
+  },
+  {
+    "id": 80,
+    "number": "080",
+    "title": "A BÍBLIA É QUAL MARTELO",
+    "lyrics": "A Bíblia é qual martelo\nPedreira de espedaçar.\nÉ luz para os meus passos\nE uma lâmpada a me guiar;\nEspada de dois gumes,\nUm espelho para me ver.\nTudo isso a Santa Bíblia\nÉ para mim se eu a ler.\n\nA Bíblia é qual semente\nQue nasce no coração,\nQual leite e pão que nutrem\nAos que aceitam a salvação.\nComo água, sim, me limpa,\nFaz o mal desaparecer.\nTudo isso a Santa Bíblia\nÉ para mim se eu a ler."
+  },
+  {
+    "id": 81,
+    "number": "081",
+    "title": "DEUS É AMOR",
+    "lyrics": "Deus é amor! Deus é amor!\nNos deu Jesus! Nos deu Jesus!\nQue veio aqui para me buscar,\nQue deu sua vida, pra me salvar,\nQue foi aos céus e vai me levar.\nSim, Deus é amor! Deus é amor!"
+  },
+  {
+    "id": 82,
+    "number": "082",
+    "title": "BRILHANDO",
+    "lyrics": "Brilhando e lutando, por Jesus, o Salvador;\nVelando e orando, soldados sem temor,\nSempre avançando e falando do glorioso Redentor,\nVivamos sempre por Cristo, o Rei."
+  },
+  {
+    "id": 83,
+    "number": "083",
+    "title": "TUDO AQUI MUDOU",
+    "lyrics": "Tudo aqui mudou, pois Jesus transformou,\nRenovou a minha vida.\nTudo aqui mudou: quando eu cri no Senhor,\nOutra vida começou.\nCoisas que eu amava renunciei:\nAmo agora o que então desprezei.\nTudo aqui mudou: quando eu cri no Senhor,\nNova vida começou."
+  },
+  {
+    "id": 84,
+    "number": "084",
+    "title": "INFINITA GRAÇA",
+    "lyrics": "Conforme a tua infinita graça,\nÓ pai, perdoa a minha transgressão.\nFaz-me sentir mais uma vez a graça\nE dá-me tua paz ao coração.\n\nCORO\nMais uma vez eu sinto o meu pecado\nQue é contra ti, meu pai, ó pai de amor.\nMinh'alma pede tua alegria,\nRenova em mim o teu amor, ó meu Senhor.\n\nMeu coração a ti eu ofereço.\nPerdão imploro, meu Senhor e Rei.\nConforme a tua infinita graça,\nMisericórdia, sim, alcançarei."
+  },
+  {
+    "id": 85,
+    "number": "085",
+    "title": "NÃO É DIREITO",
+    "lyrics": "Não é direito conhecê-lo,\nE não dizê-lo a mais ninguém;\nNão é direito que o amemos,\nSem anunciá-lo além,\nNão é direito que o sirvamos\nSem sua comissão cumprir,\nNão é direito quando alguém diz: Vai;\nE não quer ir."
+  },
+  {
+    "id": 86,
+    "number": "086",
+    "title": "QUEM ME DÁ PAZ?",
+    "lyrics": "Quem me dá paz? Cristo! Consolo traz? Cristo!\nSabe das mágoas do meu viver;\nControla as provas no seu poder.\nQuem me ama mais? Cristo! Falha jamais? Cristo!\nContente estou em Cristo, maravilhoso Senhor!"
+  },
+  {
+    "id": 87,
+    "number": "087",
+    "title": "A MARCHA",
+    "lyrics": "Eu, tu, ele, certos estaremos já?\nNós, vós, eles, poderemos já saber?\nQue Jesus aos crentes salvação eterna dá.\nE que nossa vida para Deus vai ser?\n\nEle e tu e eu, estamos todos certos, sim.\nNós e vós e eles também certos estão.\nÉ a palavra de Jesus confirmada sobre a cruz.\n\nSim, sabemos que Jesus é salvador,\nCertos, certos, certos já estamos, sim.\nPois Jesus levou as nossas culpas com amor\nE traçou um rumo que tem Deus por fim."
+  },
+  {
+    "id": 88,
+    "number": "088",
+    "title": "AOS AMIGOS MEUS",
+    "lyrics": "Aos amigos meus agora eu vou contar,\nQuem quiser saber agora eu vou contar,\nPapai, mamãe, sempre quero bem,\nE amo muito, muito a Jesus também.\n\nCORO\nTodos, todos, todos, todos são amigos meus,\nQuero bem a toda gente, graças ao bom Deus,\nMas Jesus, papai, mamãe, digo com satisfação,\nOcupou lugar primeiro neste coração.\n\nAmo ao mendigo que me estende a mão,\nAos meninos todos de coração,\nPois eu amo, até quem não gosta de mim,\nPois Jesus é meu amigo e me ensinou assim."
+  },
+  {
+    "id": 89,
+    "number": "089",
+    "title": "TODO MUNDO DEVE CRER",
+    "lyrics": "Todo mundo deve crer, o evangelho receber\nE por ele conhecer, quem é Jesus.\nTodo mundo deve crer, sua graça conhecer,\nDevem todos receber o bom Jesus.\n\nÉ a estrela matutina. Luz do céu que vem guiar,\nNesta vida peregrina, os meus pés sem vacilar.\n\nO seu sangue derramado, por meninos foi, também!\nPurifica do pecado quantos fé em Cristo têm."
+  },
+  {
+    "id": 90,
+    "number": "090",
+    "title": "CANTANDO ALEGRE VOU",
+    "lyrics": "Cantando alegre vou, pois de Jesus eu sou.\nMinha alma conquistou, E me salvou.\nCantando alegre vou, pois de Jesus eu sou\nVida e paz me deu, sou feliz!"
+  },
+  {
+    "id": 91,
+    "number": "091",
+    "title": "CANTO DO SEU AMOR",
+    "lyrics": "Canto do amor de Cristo que me salvou,\nTão divino amor, amor que me libertou.\nCantarei da graça, da glória de meu Senhor,\nQue alegria, que gozo eu tenho,\nCanto do meu salvador!"
+  },
+  {
+    "id": 92,
+    "number": "092",
+    "title": "A NAVEGAR",
+    "lyrics": "A navegar pra nosso lar;\nQuereis vir, vós também? (Bis)\nA navegar pra nosso lar;\nPara a pátria amada, além."
+  },
+  {
+    "id": 93,
+    "number": "093",
+    "title": "DESANIMADOS",
+    "lyrics": "Desanimados? Não! Não, Não! (Bis)\nDores, tristezas podem nos vir,\nCom Cristo alegres vamos sorrir.\nDesanimados? Não! Não! Não!"
+  },
+  {
+    "id": 94,
+    "number": "094",
+    "title": "JAMAIS, JAMAIS",
+    "lyrics": "Jamais, jamais, não se lembra Deus jamais.\nTodo o pecado foi perdoado,\nNão será lembrado nunca mais.\nMeu Deus não vê meus pecados nunca mais.\nDos pecados perdoados já Deus não se lembra,\nOh, nunca mais!"
+  },
+  {
+    "id": 95,
+    "number": "095",
+    "title": "EU TENHO UM LAR",
+    "lyrics": "Eu tenho um lar. Eu tenho um lar,\nEu tenho um lindo lar no céu, sim, no céu.\nOh, que fulgor, quando eu lá for,\nCom todos os remidos seus."
+  },
+  {
+    "id": 96,
+    "number": "096",
+    "title": "QUANTO FEZ JESUS POR MIM",
+    "lyrics": "Quanto fez Jesus por mim!\nQuando considero assim,\nQue darei senão a consagração,\nViver somente para quem já tudo fez por mim?"
+  },
+  {
+    "id": 97,
+    "number": "097",
+    "title": "EU TE SIRVO",
+    "lyrics": "Eu te sirvo, porque te amo.\nVida eterna deste a mim.\nEu perdido, mas tu me achaste,\nVida eterna deste a mim.\nFraco e escravo,\nTu por mim na rude cruz morreste,\nGozo e paz eu tenho,\nVida eterna deste a mim."
+  },
+  {
+    "id": 98,
+    "number": "098",
+    "title": "SATISFAÇÃO",
+    "lyrics": "Satisfação é ter a Cristo,\nNão há melhor prazer já visto;\nSou de Jesus e agora eu sinto,\nSatisfação sem fim.\n\nSatisfação é nova vida,\nEu com Jesus em alegria,\nSempre cantando a melodia,\nSatisfação sem fim.\n\nSim, paz real, sim, gozo na aflição,\nAchei o segredo, é Cristo no coração.\n\nSatisfação é não ter medo,\nPois meu Jesus virá bem cedo.\nLogo em glória eu hei de vê-lo,\nSatisfação sem fim. (3 vezes)"
+  },
+  {
+    "id": 99,
+    "number": "099",
+    "title": "A PAZ DO CÉU",
+    "lyrics": "Maravilhoso e sublime pra mim;\nSim, nunca me esquecerei;\nDia glorioso em que a Cristo eu vi,\nE o coração lhe entreguei.\nOh, quão precioso amigo ele é,\nSalvou-me da perdição,\nTirando as culpas, das trevas\nLivrando, e trazendo-me em pleno perdão.\n\nCORO\nA paz do céu encheu o meu coração,\nQuando Jesus me deu a salvação.\nMinh’alma então lavou,\nE a luz em mim raiou.\nA paz do céu encheu meu coração.\n\nGrande esperança Jesus já me deu,\nQue não desvanecerá,\nHá uma gloriosa morada no céu,\nQue breve minha será;\nTudo porque neste dia feliz,\nO meu Senhor aceitei,\nGrandes riquezas e bençãos celestes,\nDas mãos divinais alcancei."
+  },
+  {
+    "id": 100,
+    "number": "100",
+    "title": "OS QUE ESPERAM DO SENHOR",
+    "lyrics": "Os que esperam no Senhor serão renovados;\nEle aumentará o vigor aos debilitados.\nComo as águias subirão, nunca desfalecerão;\nAlto, alto, muito alto, muito alto voarão."
+  },
+  {
+    "id": 101,
+    "number": "101",
+    "title": "CRISTO CHAMA",
+    "lyrics": "Cristo chama, sempre chama,\nVou segui-lo em qualquer lugar.\nCristo chama, sempre chama,\nEstou seguro onde eu andar.\nLá no vale ou sobre o mar,\nPelas montanhas onde eu andar.\nCristo chama, sempre chama,\nVou segui-lo em qualquer lugar."
+  },
+  {
+    "id": 102,
+    "number": "102",
+    "title": "PASTOS BEM VERDEJANTES",
+    "lyrics": "Pastos bem verdejantes, águas puras me dá;\nTudo me supre, não me faltará.\nSou cordeiro de Cristo, meu divino pastor,\nSeguro estou. (Fine)\nÁguas, sim, pastos, sim,\nMeu pastor sim, tudo suprirá.\nSeguirei, seguirei,\nSeguirei, meu bom pastor.\n(D.C. al Fine)"
+  },
+  {
+    "id": 103,
+    "number": "103",
+    "title": "O CAMINHO É SÓ JESUS",
+    "lyrics": "O caminho é só Jesus,\nNão há qualquer outra luz;\nPois Deus assim mostrou que é só Jesus\nQue pode dar-nos vida e luz.\nO caminho é só Jesus\nPara o lar de terna luz.\nSe você quer entrar, é confiar;\nPois o caminho é só Jesus."
+  },
+  {
+    "id": 104,
+    "number": "104",
+    "title": "GRAÇAS DOU",
+    "lyrics": "Graças dou, bendito Senhor,\nPois tu és o meu salvador;\nTu, por mim, te deste na cruz;\nTeu para sempre sou eu, Jesus!\n\nGraças dou a ti, meu Jesus.\nGraças dou, pois vivo na luz.\nGraças dou, já gozo perdão,\nPaz em minha alma e salvação."
+  },
+  {
+    "id": 105,
+    "number": "105",
+    "title": "NÃO TEMAS, POIS",
+    "lyrics": "Não temas, pois, eu sou contigo;\nNão te assombres, sou teu Deus;\nEu te esforço sim, eu te ajudo;\nEu te sustento com minha mão.\nEternamente, seguramente,\nMinha destra te sustentará."
+  },
+  {
+    "id": 106,
+    "number": "106",
+    "title": "MEU CORAÇÃO ERA PRETO",
+    "lyrics": "Meu coração era preto,\nMas Cristo aqui já entrou\nE o seu precioso sangue,\nTão alvo assim o tornou.\nE diz, em sua palavra,\nQue em ruas de ouro andarei.\nOh, dia feliz, quando eu cri\nE a vida eterna eu ganhei."
+  },
+  {
+    "id": 107,
+    "number": "107",
+    "title": "SOU FELIZ",
+    "lyrics": "Sou feliz, feliz, feliz no meu viver,\nSou feliz, pois tenho um grande salvador,\nDesde quando me salvou com o seu poder,\nVivo alegre, mui feliz no seu amor."
+  },
+  {
+    "id": 108,
+    "number": "108",
+    "title": "“V” É VITÓRIA",
+    "lyrics": "“V” é vitória! Proclamai com real prazer;\n“V” é vitória! Por Jesus vamos nós vencer!\nSe faltar prazer e luz, tudo nos dá Jesus,\nPois, temos vitória, por quem já morreu na cruz!"
+  },
+  {
+    "id": 109,
+    "number": "109",
+    "title": "EU PERTENÇO A CRISTO (B)",
+    "lyrics": "Eu pertenço a Cristo, pois, ele me comprou.\nRenovou meu coração e me purificou.\nQuero em tudo lhe agradar, na obra e no lazer,\nPois, eu sei que um dia irei com meu Jesus viver."
+  },
+  {
+    "id": 110,
+    "number": "110",
+    "title": "TRÊS RAPAZES",
+    "lyrics": "Três rapazes houve a Deus fiéis.\nQue não adoravam falso Deus.\nQuis o rei Nabucodonosor\nSe prostassem esses bons judeus.\nNa fornalha acesa para os consumir.\nAtados os fizeram lá cair,\nPorém o fogo não os consumiu,\nPorque Deus com eles assistiu!\nSadraque, Mesaque, Abede-nego!"
+  },
+  {
+    "id": 111,
+    "number": "111",
+    "title": "FAZE ORAÇÃO",
+    "lyrics": "Faze oração bem cedinho,\nAo meio dia, sim, também.\nFaze oração à noitinha\nQue é Deus que te sustém.\n\nJá de manhã, Deus escuta;\nAo meio dia, sim, também.\nMesmo te vê à noitinha,\nDe tudo te sustém.\n\nJá de manhã Deus responde,\nAo meio dia, sim, também;\nFaze oração à noitinha,\nPois ele logo vem."
+  },
+  {
+    "id": 112,
+    "number": "112",
+    "title": "COM SUA MÃO",
+    "lyrics": "Com sua mão, Cristo me sustém;\nSempre seguro me guiará;\nDe dia em dia me guardará.\nCom sua mão Cristo me sustém\nSe longo é o brilhar, Cristo vai ajudar,\nEle me sustém."
+  },
+  {
+    "id": 113,
+    "number": "113",
+    "title": "SE ÉS SALVO",
+    "lyrics": "Se és salvo e o sabes, dize: Amém\nSe és salvo e o sabes, dize: Amém.\nSe és salvo e o sabes,\nTua vida vai mostrá-lo.\nSe és salvo e o sabes, dize: Amém."
+  },
+  {
+    "id": 114,
+    "number": "114",
+    "title": "CRISTO PRIMEIRO",
+    "lyrics": "Cristo primeiro, então eu.\nQue palavra vai se escrever?\nAntes de “EU” ponho um “C”,\nLogo CÉU bem escrito vai ver.\nSabem que “C” é de Cristo a inicial.\n“EU” representa o meu ser pessoal.\nPonha então Cristo em primeiro lugar,\nE sempre o CÉU vai gozar."
+  },
+  {
+    "id": 115,
+    "number": "115",
+    "title": "OUÇO A VOZ DO SALVADOR",
+    "lyrics": "Ouço a voz do Salvador, que me chama com amor.\n“Vem, ó pecador, quero te salvar,\nPois morri na cruz por ti”.\nE agora salvo sou, com Jesus alegre vou,\nE quando vir seu rosto, no meu lar celestial,\nQue gozo divinal!"
+  },
+  {
+    "id": 116,
+    "number": "116",
+    "title": "JANELAS NO CÉU",
+    "lyrics": "No céu há janelas abertas,\nE as bençãos já descem de lá;\nO meu coração rejubila,\nPorque Jesus nele está.\nTirei os andrajes imundos;\nDe branco vestiu-me o Senhor.\nDo pão divinal eu me nutro,\nBanquete do seu grande amor."
+  },
+  {
+    "id": 117,
+    "number": "117",
+    "title": "CRE SOMENTE",
+    "lyrics": "Crê somente e Deus te atenderá;\nCrê somente e tudo mudará;\nCrê somente em Deus, que sempre dá.\nCrê somente e sempre."
+  },
+  {
+    "id": 118,
+    "number": "118",
+    "title": "É O CÉU LUGAR FELIZ",
+    "lyrics": "É o céu lugar feliz, bem feliz, tão feliz,\nÉ o céu lugar feliz, Aleluia!\n\nNoite lá não haverá, não, não há, não, não há,\nNoite lá não haverá, Aleluia!\n\nPedras preciosas há, muitas há, muitas há,\nPedras preciosas há, Aleluia!\n\nRuas de ouro e de cristal, de cristal, de cristal,\nRuas de ouro e de cristal, Aleluia!\n\nEm seu trono reina Deus, reina Deus, reina Deus,\nEm seu trono reina Deus, Aleluia!\n\nO caminho é só Jesus, só Jesus, só Jesus,\nO caminho é só Jesus, Aleluia!\n\nMui felizes vamos ser, vamos ser, vamos ser,\nMui felizes vamos ser, Vem, amigo!"
+  },
+  {
+    "id": 119,
+    "number": "119",
+    "title": "MARANATA!",
+    "lyrics": "Maranata, Maranata, Esperança do Cristão.\nMaranata! Cristo volta! Ó, que belas novas são!\nVoltará o Salvador da glória além.\nAleluia! Maranata! Cristo vem."
+  },
+  {
+    "id": 120,
+    "number": "120",
+    "title": "QUE DAREI",
+    "lyrics": "Que darei ao Senhor por dar-me seu perdão?\nNada tenho para dar a não ser meu coração.\nMinha vida quero ofertá-lo para sua vontade fazer;\nSempre quero segui-lo para com ele viver."
+  },
+  {
+    "id": 121,
+    "number": "121",
+    "title": "TEMPO A SÓS",
+    "lyrics": "Tempo a sós, contigo, ó Cristo,\nTempo a sós, Senhor.\nTempo pra te amar, ó Cristo,\nTu és meu salvador.\nGrande amor, tão doce paz, graça sem par,\nBastante pra me salvar!\nTempo a sós, sim quero, ó Cristo,\nTempo a sós, Senhor!"
+  },
+  {
+    "id": 122,
+    "number": "122",
+    "title": "CADA DIA SOU FELIZ",
+    "lyrics": "Cada dia sou feliz, eu ando com Jesus!\nCada dia vou feliz, pois ele me conduz.\nCuidará de mim, eu sei, Jesus, meu rei.\nCada dia sou feliz, andando com Jesus!"
+  },
+  {
+    "id": 123,
+    "number": "123",
+    "title": "MARAVILHOSO É",
+    "lyrics": "Maravilhoso é, maravilhoso é,\nMaravilhoso é, Cristo o Senhor.\nEle é o grande rei, seu nome louvarei,\nMaravilhoso é, meu salvador.\nGrande pastor é, a rocha eterna,\nOnipotente Deus.\nVinde, adorá-lo, servir e amá-lo,\nMaravilhoso é, meu salvador!"
+  },
+  {
+    "id": 124,
+    "number": "124",
+    "title": "SEGUINDO A CRISTO",
+    "lyrics": "Seguindo a Cristo, dia a dia eu vou,\nNada me espanta, seguro estou.\nSombra ou brilho, seja o que for,\nAndo contente com meu salvador."
+  },
+  {
+    "id": 125,
+    "number": "125",
+    "title": "ALGUNS PENSAM",
+    "lyrics": "Alguns pensam e acham, duvidam e esperam,\nMas sei que eu salvo sou.\nAlguns temem que nunca irão para o céu\nMas eu sei que eu salvo sou.\nSim, eu sei que sou salvo, que Cristo é meu,\nE eu tenho certeza que vou para o céu\nQue gozo e paz que eu tenho em Cristo,\nSim, sei que eu salvo sou."
+  },
+  {
+    "id": 126,
+    "number": "126",
+    "title": "UM VASO NOVO",
+    "lyrics": "Eu quero ser, Senhor amado,\nComo um vaso nas mãos do oleiro;\nQuebra a minha vida e faze-a de novo\nEu quero ser, eu quero ser, um vaso novo."
+  },
+  {
+    "id": 127,
+    "number": "127",
+    "title": "UM OLHAR A CRISTO",
+    "lyrics": "Um olhar a Cristo - enche o coração,\nSeu olhar compassivo - traz consolação.\nSua voz ouvindo, vendo seu sorrir,\nIsto só eu peço, cada dia aqui.\n\nUm olhar a Cristo - rompe a escuridão,\nVence os meus inimigos, calma o furacão.\nSolidão não tenho, nem chorar, pesar.\nUm olhar a Cristo é dádiva sem par."
+  },
+  {
+    "id": 128,
+    "number": "128",
+    "title": "QUANDO A VIDA AQUI FINDAR",
+    "lyrics": "Quando a vida que findar\nE eu feliz subir ao lar,\nLá meu salvador verei em glória e luz,\nAquele que por mim foi à cruz.\n\nFace a face lhe darei\nGratidão por me salvar;\nRenderei sem fim louvor a Cristo o rei\nPor seu tão grande amor sem par."
+  },
+  {
+    "id": 129,
+    "number": "129",
+    "title": "NA CASA DE MEU PAI",
+    "lyrics": "Vai tudo muito bem na casa de meu pai,\nNa casa de meu pai, na casa de meu pai,\nVai tudo muito bem na casa de meu pai,\nOnde tudo é paz e amor.\n\nJesus me levará à casa de meu pai,\nÀ casa de meu pai, à casa de meu pai,\nJesus me levará à casa de meu pai,\nOnde tudo é paz e amor\n\nComigo vinde já à casa de meu pai,\nÀ casa de meu pai, à casa de meu pai,\nComigo vinde já à casa de meu pai,\nOnde tudo é paz e amor.\n\nEu te verei ali na casa de meu pai,\nNa casa de meu pai, na casa de meu pai,\nEu te verei ali na casa de meu pai,\nOnde tudo é paz e amor."
+  },
+  {
+    "id": 130,
+    "number": "130",
+    "title": "PODE A TRISTEZA",
+    "lyrics": "Pode a tristeza durar, até ao anoitecer, (Bis)\nMas a alegria vem ao amanhecer. (Bis)\nQuero acordar cantando eu, quero acordar cantando eu,\nQuero acordar cantando e louvando a meu Senhor.\nQuero acordar cantando eu, quero acordar cantando eu,\nQuero acordar cantando e louvando a meu Senhor."
+  },
+  {
+    "id": 131,
+    "number": "131",
+    "title": "A MINHA CARGA",
+    "lyrics": "A minha carga fui aliviar,\nAo pé da cruz, ao pé da cruz.\nA minha carga fui aliviar,\nAos pés do Salvador.\n\nPaz como um rio desfruta meu ser,\nTodo o meu ser, todo o meu ser,\nPaz como um rio desfruta meu ser,\nAos pés do Salvador."
+  },
+  {
+    "id": 132,
+    "number": "132",
+    "title": "INCONTÁVEIS MILHÕES",
+    "lyrics": "Incontáveis milhões estão,\nLonge de Cristo, ao céu não irão.\nQuem irá para lhes contar\nDo amor celeste que pode salvar?\nLá na cruz, Jesus morreu,\nO mundo pra salvar.\nManda-nos que vamos já,\nAs novas proclamar.\nIncontáveis milhões estão\nLonge de Cristo, ao céu não irão.\nQuem irá para lhes contar\nDo amor celeste que pode salvar?"
+  },
+  {
+    "id": 133,
+    "number": "133",
+    "title": "AMPARADO POR JESUS",
+    "lyrics": "Forte é Deus, meu Senhor, terno, sim, seu amor,\nEle não me deixará.\n(Amparado por Jesus meu salvador.)\nRei dos reis, criador, rocha é, bom pastor,\nEle não me deixará.\n(Sim, estou amparado, por meu salvador.)\nMesmo quando estou provado\nNão me falta o seu cuidado, não.\nForte é Deus, meu Senhor, terno, sim, seu amor,\nEle não me deixará jamais!\n(Amparado por Jesus meu salvador!)"
+  },
+  {
+    "id": 134,
+    "number": "134",
+    "title": "EU TENHO GOZO",
+    "lyrics": "Eu tenho gozo, gozo, gozo, gozo no coração,\nNo coração, no coração. Eu tenho gozo, gozo,\nGozo, gozo no coração e permanecerá!\n\nEu tenho paz que sempre permanece no coração,\nNo coração, no coração. Eu tenho paz que sempre\nPermanece no coração e permanecerá!\n\nCondenação não há, portanto, agora no coração,\nNo coração, no coração. Mas reina a graça de Jesus agora\nNo coração e sempre reinará!"
+  },
+  {
+    "id": 135,
+    "number": "135",
+    "title": "ANIVERSÁRIO",
+    "lyrics": "Aniversário feliz, bem feliz,\nHoje transcorre de Deus ricos dons.\nAssim foi feito como ele quis,\nA fim de sabermos que ele é bom.\nQue alegria, meu natal!\nUm novo dia, me conduz.\nSalve os desejos, contar os meus dias,\nNa fé e no serviço de Jesus."
+  },
+  {
+    "id": 136,
+    "number": "136",
+    "title": "NÃO HÁ NOITE NO CÉU",
+    "lyrics": "No céu não há, no céu não há,\nNão há noite no céu, não há!\nSomente existe luz, pois lá está meu Jesus!\nNão há noite no céu, não há!\n\nVai tudo bem, vai tudo bem,\nAleluia, vai tudo bem!\nAgora salvo estou, e para o céu eu vou!\nAleluia, vai tudo bem!\n\nJesus já vem, Jesus já vem,\nAleluia, Jesus já vem!\nEm glória vai voltar, com ele vou reinar!\nAleluia, Jesus já vem!"
+  },
+  {
+    "id": 137,
+    "number": "137",
+    "title": "ABRE A JESUS",
+    "lyrics": "Abre a Jesus teu coração;\nPor ter os pecados dará seu perdão.\nJá o convida e entrará,\nPois bem pode ser, jamais passará.\nPõe a mão na ferida mão.\nPara teu guia ser.\nAbre a Jesus teu coração\nPra sempre em Cristo a vida ter.\nAbre-lhe o coração."
+  },
+  {
+    "id": 138,
+    "number": "138",
+    "title": "POR QUE BUSCAIS O VIVO?",
+    "lyrics": "Por que buscais o vivo entre os mortos?\nNão jaz aqui pois já ressuscitou.\nVinde e vede o túmulo vazio,\nDeus ao seu filho assim glorificou.\nVenceu! Venceu! Por vós a morte eterna.\nE reviveu pra dar-vos vida eterna.\nAnunciai a todo mundo as novas.\nMorreu Jesus mas já ressuscitou!"
+  },
+  {
+    "id": 139,
+    "number": "139",
+    "title": "ENTREGA O TEU CAMINHO",
+    "lyrics": "Entrega o teu caminho ao Senhor,\nConfia nele e ele tudo fará.\nEntrega o teu caminho ao Senhor,\nConfia nele e ele tudo fará."
+  },
+  {
+    "id": 140,
+    "number": "140",
+    "title": "JESUS PEQUENINO",
+    "lyrics": "Jesus pequenino nasceu em Belém,\nAo mundo trazendo a paz, todo o bem;\nNo campo pastores ouviram louvor\nDa boa vontade de Deus, criador.\n\nCORO\nEu sou pequenino mas posso entender\nQue Cristo Jesus veio ao mundo nascer\nPra dar ao pecado destino cabal\nE assim resgatar-nos da morte eternal.\n\nEu sou mui feliz pois a Cristo aceitei\nE aos meus amiguinhos também eu direi\nQue Cristo é amoroso e fiel salvador,\nGuardando-nos sempre em seu grande amor."
+  },
+  {
+    "id": 141,
+    "number": "141",
+    "title": "O TREM DAS BOAS NOVAS",
+    "lyrics": "Vou no trem das boas novas lá do céu\nQue conduz à salvação;\nVou no trilho certo e, nunca voltarei,\nAo lugar da perdição!\nJá tenho o passe, o sangue que Jesus\nDeu por minha redenção.\nVou no trem das boas novas lá do céu\nQue conduz à salvação."
+  },
+  {
+    "id": 142,
+    "number": "142",
+    "title": "O REI HERODES",
+    "lyrics": "O rei Herodes procurou a Jesus matar.\nMandou soldados a Belém\nE fez as mães chorar,\nMas do seu filho Deus cuidou\nE deu um novo lar;\nE assim o rei não conseguiu\nSeu plano terminar."
+  },
+  {
+    "id": 143,
+    "number": "143",
+    "title": "O JUMENTO",
+    "lyrics": "Lindas estrelas no céu a brilhar\nA antiga estrada vem iluminar.\nE o jumentinho, de andar compassado,\nCarrega seu fardo com muito cuidado\nE bem parece que ele sabia\nQue o fardo precioso era Maria."
+  },
+  {
+    "id": 144,
+    "number": "144",
+    "title": "É NATAL DE CRISTO",
+    "lyrics": "É natal! É natal de Cristo!\nVenha ouvir, venha ouvir a história:\nDeus mandou-nos seu filho ao mundo,\nPorque muito ele nos amou:\nSim, Jesus, Rei dos reis, eterno,\nFez-se homem, nasceu em Belém,\nPra nos dar seu perdão e vida,\nPorque muito ele nos quer bem!\n\nSe você vai no mundo andando\nSem saber como Deus o ama,\nOuça bem esta linda história\nQue cantando eu lhe vou contar:\nÉ natal! É natal de Cristo!\nEle quis entre os homens nascer,\nPra morrer numa cruz um dia\nE salvar, perdoar você.\n\nVocê crê nesse amor divino?\nVocê crê nessa linda história?\nSe você hoje crer em Cristo,\nVida eterna vai receber!\nDeus deixou-nos um livro escrito\nQue nos conta essa história de amor!\nÉ natal! É natal de Cristo!\nAdoremos o salvador!"
+  },
+  {
+    "id": 145,
+    "number": "145",
+    "title": "DORME, MEU FILHINHO",
+    "lyrics": "Dorme, dorme, meu filhinho,\nProtegido por Jesus.\nDorme, dorme, que é de noite,\nDe manhã verás a luz.\nTeu Jesus não teve um berço\nTão bonzinho como o teu,\nQuando, para ser criança\nComo tu, aqui nasceu."
+  },
+  {
+    "id": 146,
+    "number": "146",
+    "title": "A BÍBLIA SÓ",
+    "lyrics": "O livro que é perfeito, que trago no meu peito,\nE sempre traz proveito; é a Bíblia só.\n\nO livro que proclama que Deus a todos ama,\nQue dá prazer e fama, é a Bíblia só.\n\nDe Deus tal livro veio, eu sempre, sempre o leio.\nEu piamente o creio, é a Bíblia só."
+  },
+  {
+    "id": 147,
+    "number": "147",
+    "title": "Ó SALVADOR QUERIDO",
+    "lyrics": "Ó salvador querido, nosso amigo sem igual!\nJesus, nós te adoramos neste dia de natal!\nOs anjos cantam hinos, cantam hinos de louvor!\nE nós teus pequeninos, te trazemos nosso amor."
+  },
+  {
+    "id": 148,
+    "number": "148",
+    "title": "VEM CONTAR-ME",
+    "lyrics": "Vem contar-me, pastor meigo,\nPastor meigo, pastor meigo,\nO que disse o anjo do Senhor\nNesta noite de natal?\nO que disse o anjo do Senhor\nNesta noite de natal?\n\nEscutai, ó bons meninos,\nBons meninos, bons meninos\nO que disse o anjo do Senhor\nNesta noite de natal:\n“Não temais que boas novas dou,\nPois nasceu o salvador!”.\n\nVem contar-me, pastor meigo\nPastor meigo, pastor meigo,\nComo foi que a multidão cantou\nNas campinas de Belém?\nComo foi que a multidão cantou\nNas campinas de Belém?\n\nVou dizer-vos, jovens crentes,\nJovens crentes, jovens crentes,\nComo foi que a multidão cantou\nNas campinas de Belém:\n“Nas alturas glória, glória a Deus,\nE aos de Deus na terra paz.”\n\nCelebremos boas festas,\nBoas festas, boas festas,\nCriancinhas, homens e anjos, sim,\nRepetindo esta canção:\n“Nas alturas glória, glória a Deus,\nE aos de Deus na terra paz.”"
+  },
+  {
+    "id": 149,
+    "number": "149",
+    "title": "NUM BERÇO DE PALHAS",
+    "lyrics": "Num berço de palhas dormia Jesus,\nO meigo menino que ali veio à luz,\nNo rude presépio, de noite, em Belém\nEnquanto as estrelas brilhavam além.\n\nAcorda o menino o gado a mugir,\nMas ele não chora; se põe a sorrir!\nEu te amo, querido menino gentil:\nVem, guarda também o meu berço infantil!"
+  },
+  {
+    "id": 150,
+    "number": "150",
+    "title": "OH, QUE PRAZER!",
+    "lyrics": "Que prazer é ser um bom crente,\nSer um crente leal,\nÓ, que paz, ó, que alegria, gozo tão real!\nAndo com meu mestre, Ele me conduz;\nÓ! que maravilha é ser um crente\nEm Cristo Jesus!"
+  },
+  {
+    "id": 151,
+    "number": "151",
+    "title": "TÃO POBREZINHO",
+    "lyrics": "Tão pobrezinho no seu bercinho,\nNa manjedoura o menino dormiu\nEsse primeiro sono. Tanto abandono aqui\nNo mundo jamais alguém viu.\n\nCORO\nTão pobrezinho no seu bercinho,\nNa manjedoura veio nascer!\nFoi desprezado, foi rejeitado:\nNinguém o quis receber!\n(Na terceira estrofe: Mas eu o quero acolher.)\n\nTão pobrezinho no seu bercinho,\nDorme o monarca, do mundo o Senhor.\nEm Belém não havia na hospedaria\nUm só lugar para o Rei Salvador.\n\nAnjos cantores, embaixadores,\nDo céu descendo, o “benvindo” vem dar\nAo Messias nascido, desconhecido,\nQue do presépio fizera seu lar."
+  },
+  {
+    "id": 152,
+    "number": "152",
+    "title": "LUGAR PARA CRISTO",
+    "lyrics": "Não houve lugar para Cristo em Belém,\nSó um presépio achou!\nNão teve onde a fronte pousar quando\nAqui o filho de Deus andou.\n\nCORO\nSó uma cruz recebeu o Senhor,\nPara nos resgatar.\nAmigo, oferece no teu coração\nA Jesus salvador lugar!\n\nBenvindo em minha alma és tu, ó Senhor,\nDeclaro com prazer.\nÓ, vem habitar neste meu coração\nE cumpra-se o teu querer.\n\nÓ quanto esperaste lá fora, Jesus,\nBatendo sem se abrir.\nDe toda impureza vem já me limpar\nE em mim sempre residir."
+  },
+  {
+    "id": 153,
+    "number": "153",
+    "title": "MEU, MEU, MEU, MEU",
+    "lyrics": "Meu, meu, meu, meu, Jesus é meu;\nSe estou doente, se estou contente,\nMeu, meu, meu, meu, Jesus é meu,\nJesus é sempre meu.\n\nMine, mine, mine, mine Jesus is mine;\nMine when i'm dreary, mine when i'm cheery,\nMine, mine, mine, mine Jesus is mine;\nJesus is always mine."
+  },
+  {
+    "id": 154,
+    "number": "154",
+    "title": "BÍBLIA LIVRO BOM!",
+    "lyrics": "Bíblia, livro bom! Bíblia, livro bom!\nÉs palavra do Senhor que nos mostra o seu amor.\nNosso guia cada dia, Bíblia, livro bom!\n\nSalvo, salvo estou, salvo, salvo estou!\nSalvo do pecado, sim, pois Jesus morreu por mim.\nEle amou-me, resgatou-me, salvo, salvo estou.\n\nServo, sim eu sou! Servo, sim eu sou!\nTestemunha de Jesus, refletindo a sua luz.\nQue alegria! Noite e dia, servo, sim, eu sou.\n\nGlória gozarei! Glória gozarei!\nNo precioso e santo lar, que Jesus foi preparar,\nResgatado, sem pecado, glória gozarei."
+  },
+  {
+    "id": 155,
+    "number": "155",
+    "title": "MARAVILHOSO JESUS",
+    "lyrics": "Maravilhoso é para mim,\nJesus que a vida nos dá, sem fim!\nMaravilhoso esse lugar\nQue para nós já foi preparar!"
+  },
+  {
+    "id": 156,
+    "number": "156",
+    "title": "NÃO ME SINTO SÓ",
+    "lyrics": "Não me sinto só, só, só, só, só.\nNão me sinto só, só, só, só, só\nPorque comigo está o anjo de Jeová\nQue acampa ao meu redor e me protegerá,\nPorque comigo está, o anjo de Jeová\nQue acampa ao meu redor e me protegerá.\nNão me sinto só!"
+  },
+  {
+    "id": 157,
+    "number": "157",
+    "title": "ALÉM DO CÉU AZUL",
+    "lyrics": "Além do céu azul\nFoi Jesus preparar\nUm lar pra dar a quem\nA vitória alcançar.\nAnelo conseguir\nA vida no porvir,\nCom fé no meu Senhor Jesus.\n\nBem sei que eu de mim\nNada tenho pra dar\nMas sei que meu Jesus\nJá me veio salvar.\nAgora quero, eu, ter fé no coração\nAté seu rosto ver além."
+  },
+  {
+    "id": 158,
+    "number": "158",
+    "title": "TENHO UM AMIGO",
+    "lyrics": "Tenho um amigo, ele é Jesus.\nSei que bem me ama, por mim morreu na cruz.\nOutros me desprezam, mas Jesus é meu.\nÓ, que amor de Cristo, este Salvador é meu!"
+  },
+  {
+    "id": 159,
+    "number": "159",
+    "title": "A VELHA HISTÓRIA",
+    "lyrics": "Eis a velha história, eis a velha história.\nEis a velha história, quão alegre é para mim.\n\nQuem contou foi Jesus, quem contou foi Jesus.\nQuem contou foi Jesus, quão alegre é para mim.\n\nO amor ela ensina, o amor ela ensina,\nO amor ela ensina, quão alegre é para mim.\n\nCada vez mais me anima, cada vez mais me anima.\nCada vez mais me anima, quão alegre é para mim.\n\nÉ auxílio na vida, é auxílio na vida.\nÉ auxílio na vida, quão alegre é para mim.\n\nPara o céu me conduz, para o céu me conduz.\nPara o céu me conduz, quão alegre é para mim."
+  },
+  {
+    "id": 160,
+    "number": "160",
+    "title": "HÁ VITÓRIA PARA MIM",
+    "lyrics": "Há vitória para mim. (Bis)\nPelo sangue do cordeiro, há vitória para mim.\nVencer, vencer, vencer, vencer.\nPelo sangue do cordeiro eu irei vencer."
+  },
+  {
+    "id": 161,
+    "number": "161",
+    "title": "JESUS O MEU SENHOR",
+    "lyrics": "Jesus o meu Senhor, meu Rei e Salvador,\nDepois que me salvou, também ele chamou.\nEntão eu atendi, e ele me aceitou,\nAgora sou feliz, pois ele me salvou.\nE sempre atenderei, a voz do meu Senhor,\nE sempre atenderei, a voz do meu Senhor.\n\n\n“VINDE, CANTEMOS AO SENHOR, COM JUBILO,\nCELEBREMOS O ROCHEDO DA NOSSA SALVAÇÃO.\nSAIAMOS AO SEU ENCONTRO, COM AÇÕES DE GRAÇA, VITORIEMO-LO COM SALMOS.”\nSalmo 95:1,2"
+  }
+]

@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Louvores </title>
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="icon" href="./icons/icon-192.png" sizes="192x192">
+  <link rel="apple-touch-icon" href="./icons/icon-192.png">
+  <meta name="theme-color" content="#111827">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+  <header class="top">
+    <div class="brand">
+      <div class="logo">♪</div>
+      <div>
+        <h1>Louvores</h1>
+        <p class="muted">Pesquise por título ou por trecho </p>
+      </div>
+    </div>
+
+    <div class="actions">
+      <input id="q" type="search" placeholder="Pesquisar (ex.: 'graça', 'coração', 'Jesus')" autocomplete="off" />
+      <button id="btnClear" title="Limpar">Limpar</button>
+    </div>
+  </header>
+
+  <main class="screen">
+    <!-- TELA: LISTA -->
+    <section id="screenList" class="panel">
+      <div class="listHeader">
+        <span id="count">0</span>
+        <span class="muted">resultados</span>
+      </div>
+      <ul id="items"></ul>
+    </section>
+
+
+    <!-- TELA: DETALHE (FULLSCREEN) -->
+    <section id="screenDetail" class="panel hidden" aria-hidden="true">
+      <div class="detailTop">
+        <button id="btnBack" class="backBtn" type="button">← Voltar</button>
+
+        <div class="detailBtns">
+          <button id="btnAminus" type="button" aria-label="Diminuir fonte">A-</button>
+          <button id="btnAplus" type="button" aria-label="Aumentar fonte">A+</button>
+          <button id="btnCopy" type="button">Copiar</button>
+          <button id="btnShare" type="button">Compartilhar</button>
+        </div>
+      </div>
+
+      <div class="detailBody">
+        <h2 id="dTitle"></h2>
+        <p class="muted" id="dMeta"></p>
+        <pre id="dLyrics"></pre>
+      </div>
+    </section>
+  </main>
+
+  <footer class="foot muted">
+    <p> © 2026 </p>
+    <span id="status"></span>
+  </footer>
+
+  <script src="./app.js" type="module"></script>
+</body>
+
+</html>

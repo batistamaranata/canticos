@@ -1,37 +1,44 @@
 const $ = (sel) => document.querySelector(sel);
 
+// base
 const elQ = $("#q");
 const elItems = $("#items");
 const elCount = $("#count");
-const elDTitle = $("#dTitle");
-const elDMeta = $("#dMeta");
-const elDLyrics = $("#dLyrics");
+const elStatus = $("#status");
+
 const btnClear = $("#btnClear");
 const btnCopy = $("#btnCopy");
 const btnShare = $("#btnShare");
-const elStatus = $("#status");
 
+// (opcional no seu HTML)
+const tabLouvores = $("#tabLouvores");
+const tabCifras = $("#tabCifras");
+const appTitle = $("#appTitle");
+
+// ====== SUPORTE a 2 layouts ======
+// Layout NOVO (telas)
 const screenList = $("#screenList");
 const screenDetail = $("#screenDetail");
 const btnBack = $("#btnBack");
 
+// Layout ANTIGO (grid viewer)
+const oldEmpty = $("#empty");
+const oldDetail = $("#detail");
+
+// Elementos de detalhe (novo ou antigo)
+const elDTitle = $("#dTitle") || $("#detail #dTitle");
+const elDMeta  = $("#dMeta")  || $("#detail #dMeta");
+const elDLyrics = $("#dLyrics");
+
+// Acessibilidade (se não existir no HTML, ignora)
 const btnAminus = $("#btnAminus");
 const btnAplus  = $("#btnAplus");
-
-
-let hymns = [];
-let filtered = [];
-let selectedId = null;
-
-
-// acessibilidade: tamanho da letra (limites)
-const FONT_MIN = 14;   // mínimo confortável
-const FONT_MAX = 22;   // máximo "não exagerado" (bom p/ acessibilidade sem estourar layout)
-const FONT_STEP = 2;
+const FONT_MIN = 14, FONT_MAX = 22, FONT_STEP = 2;
 
 let fontSize = Number(localStorage.getItem("fontSize") || "16");
 if(!Number.isFinite(fontSize)) fontSize = 16;
 fontSize = Math.max(FONT_MIN, Math.min(FONT_MAX, fontSize));
+applyFontSize();
 
 function applyFontSize(){
   document.documentElement.style.setProperty("--lyrics-size", `${fontSize}px`);
@@ -39,16 +46,24 @@ function applyFontSize(){
   if(btnAminus) btnAminus.disabled = fontSize <= FONT_MIN;
   if(btnAplus)  btnAplus.disabled  = fontSize >= FONT_MAX;
 }
-applyFontSize();
 
-
-
+let mode = "louvores"; // "louvores" | "cifras"
+let items = [];
+let filtered = [];
+let selectedId = null;
 
 function normalize(s){
   return (s || "")
     .toLowerCase()
     .normalize("NFD")
     .replace(/\p{Diacritic}/gu, "");
+}
+
+function getSearchText(it){
+  if(mode === "louvores"){
+    return `${it.number || ""} ${it.title || ""}\n${it.lyrics || ""}`;
+  }
+  return `${it.title || ""} ${it.artist || ""} ${it.key || ""} capo ${it.capo || ""}\n${it.content || ""}`;
 }
 
 function snippet(text, q){
@@ -65,23 +80,29 @@ function snippet(text, q){
   return s;
 }
 
+// abre/fecha detalhe: se tiver layout novo usa fullscreen; senão usa viewer antigo
 function openDetail(){
-  screenDetail.classList.remove("hidden");
-  screenDetail.setAttribute("aria-hidden", "false");
-  screenList.classList.add("hidden");
-
-  // Voltar do Android (e também do navegador) fecha o detalhe
-  history.pushState({ view: "detail" }, "");
-
-  // sobe para o topo
-  screenDetail.scrollTo({ top: 0 });
+  if(screenDetail && screenList){
+    document.body.classList.add("detail-open");
+    screenDetail.classList.remove("hidden");
+    screenList.classList.add("hidden");
+  } else {
+    // layout antigo: mostra article#detail e esconde div#empty
+    oldEmpty?.classList.add("hidden");
+    oldDetail?.classList.remove("hidden");
+  }
 }
 
 function closeDetail(){
-  document.body.classList.remove("detail-open");
-  screenDetail.classList.add("hidden");
-  screenList.classList.remove("hidden");
-  // NÃO focar automaticamente para não abrir o teclado no mobile
+  if(screenDetail && screenList){
+    document.body.classList.remove("detail-open");
+    screenDetail.classList.add("hidden");
+    screenList.classList.remove("hidden");
+  } else {
+    // layout antigo
+    oldDetail?.classList.add("hidden");
+    oldEmpty?.classList.remove("hidden");
+  }
 }
 
 function renderList(){
@@ -90,43 +111,66 @@ function renderList(){
 
   const q = elQ.value.trim();
 
-  for(const h of filtered){
+  for(const it of filtered){
     const li = document.createElement("li");
-
-    const id = Number(h.id); // garante number
-    li.dataset.id = String(id);
-
+    const id = Number(it.id);
     if(id === selectedId) li.classList.add("active");
 
     const title = document.createElement("div");
     title.className = "t";
-    title.textContent = `${h.number} - ${h.title}`;
+
+    if(mode === "louvores"){
+      title.textContent = `${it.number} - ${it.title}`;
+    }else{
+      const meta = [
+        it.key ? `Tom ${it.key}` : null,
+        it.capo ? `Capo ${it.capo}` : null
+      ].filter(Boolean).join(" • ");
+      title.textContent = meta ? `${it.title} • ${meta}` : it.title;
+    }
 
     const sub = document.createElement("div");
     sub.className = "s";
-    sub.textContent = snippet(h.lyrics, q);
+    sub.textContent = snippet(mode === "louvores" ? it.lyrics : it.content, q);
 
     li.appendChild(title);
     li.appendChild(sub);
-
     li.addEventListener("click", () => select(id, true));
     elItems.appendChild(li);
   }
 }
 
-function select(id, shouldOpen = false){
+function select(id, shouldOpen=false){
   id = Number(id);
   selectedId = id;
 
-  const h = hymns.find(x => Number(x.id) === id);
-  if(!h) return;
+  const it = items.find(x => Number(x.id) === id);
+  if(!it) return;
 
-  elDTitle.textContent = `${h.number} - ${h.title}`;
-  elDMeta.textContent = `${(h.lyrics || "").split(/\n+/).filter(Boolean).length} linhas`;
-  elDLyrics.textContent = h.lyrics || "";
+  // Se esses elementos não existirem no seu HTML, vai dar null.
+  // Então garantimos que existe antes de setar:
+  if(elDTitle){
+    elDTitle.textContent = mode === "louvores"
+      ? `${it.number} - ${it.title}`
+      : (it.title || "Sem título");
+  }
 
-  try{ localStorage.setItem("lastId", String(id)); }catch{}
+  if(elDMeta){
+    elDMeta.textContent = mode === "louvores"
+      ? `${(it.lyrics || "").split(/\n+/).filter(Boolean).length} linhas`
+      : [
+          it.artist ? it.artist : null,
+          it.key ? `Tom ${it.key}` : null,
+          it.shape ? `Forma ${it.shape}` : null,
+          it.capo ? `Capotraste ${it.capo}` : null
+        ].filter(Boolean).join(" • ");
+  }
 
+  if(elDLyrics){
+    elDLyrics.textContent = mode === "louvores" ? (it.lyrics || "") : (it.content || "");
+  }
+
+  try{ localStorage.setItem(`lastId:${mode}`, String(id)); }catch{}
   renderList();
 
   if(shouldOpen) openDetail();
@@ -134,112 +178,112 @@ function select(id, shouldOpen = false){
 
 function applyFilter(){
   const q = elQ.value.trim();
-
   if(!q){
-    filtered = hymns;
+    filtered = items;
   }else{
     const nq = normalize(q);
-    filtered = hymns.filter(h => {
-      const t = normalize(h.title);
-      const l = normalize(h.lyrics);
-      const n = normalize(h.number);
-      return t.includes(nq) || l.includes(nq) || n.includes(nq);
-    });
+    filtered = items.filter(it => normalize(getSearchText(it)).includes(nq));
   }
 
-  // se selecionado não estiver no filtro, desmarca
   if(selectedId !== null && !filtered.some(x => Number(x.id) === selectedId)){
     selectedId = null;
   }
-
   renderList();
 }
 
-async function load(){
-  const res = await fetch("./louvores.json", { cache: "no-cache" });
-  const data = await res.json();
+async function loadMode(newMode){
+  mode = newMode;
 
-  hymns = Array.isArray(data)
-    ? data.map(h => ({ ...h, id: Number(h.id) }))
-    : [];
+  tabLouvores?.classList.toggle("active", mode === "louvores");
+  tabCifras?.classList.toggle("active", mode === "cifras");
+  if(appTitle) appTitle.textContent = mode === "louvores" ? "Louvores" : "Cifras";
 
-  filtered = hymns;
+  closeDetail();
+  selectedId = null;
+
+  const file = mode === "louvores" ? "./louvores.json" : "./cifras.json";
+  const res = await fetch(file, { cache: "no-cache" });
+
+  const text = await res.text();
+  if(!text.trim()){
+    console.error(`Arquivo ${file} veio vazio/404`);
+    items = [];
+    filtered = [];
+    applyFilter();
+    return;
+  }
+
+  let data;
+  try{
+    data = JSON.parse(text);
+  }catch(e){
+    console.error(`JSON inválido em ${file}:`, e.message);
+    console.error("FINAL:", text.slice(-200));
+    items = [];
+    filtered = [];
+    applyFilter();
+    return;
+  }
+
+  items = Array.isArray(data) ? data.map(x => ({...x, id: Number(x.id)})) : [];
+  filtered = items;
   applyFilter();
 
-  const last = Number(localStorage.getItem("lastId") || "");
-  if(Number.isFinite(last) && last > 0){
-    select(last, false); // não abre automático
-  }
+  const last = Number(localStorage.getItem(`lastId:${mode}`) || "");
+  if(Number.isFinite(last) && last > 0) select(last, false);
 }
 
-btnBack?.addEventListener("click", () => {
-  // se estamos no "state detail", voltar também resolve
-  if(history.state?.view === "detail") history.back();
-  else closeDetail();
-});
+// eventos
+tabLouvores?.addEventListener("click", () => loadMode("louvores"));
+tabCifras?.addEventListener("click", () => loadMode("cifras"));
 
-// Botão voltar do Android / navegador
-window.addEventListener("popstate", () => {
-  // se o detalhe está aberto, fecha
-  if(!screenDetail.classList.contains("hidden")) closeDetail();
-});
+btnBack?.addEventListener("click", () => closeDetail());
 
 btnClear?.addEventListener("click", () => {
   elQ.value = "";
-  try{ elQ.focus(); }catch{}
   applyFilter();
 });
-
 elQ?.addEventListener("input", () => applyFilter());
-
-btnCopy?.addEventListener("click", async () => {
-  const h = hymns.find(x => Number(x.id) === selectedId);
-  if(!h) return;
-
-  const text = `${h.number} - ${h.title}\n\n${h.lyrics || ""}`;
-
-  try{
-    await navigator.clipboard.writeText(text);
-    elStatus.textContent = "Copiado ✔";
-    setTimeout(() => elStatus.textContent = "", 1200);
-  }catch{
-    elStatus.textContent = "Não foi possível copiar";
-    setTimeout(() => elStatus.textContent = "", 1200);
-  }
-});
-
-btnShare?.addEventListener("click", async () => {
-  const h = hymns.find(x => Number(x.id) === selectedId);
-  if(!h) return;
-
-  const text = `${h.number} - ${h.title}\n\n${h.lyrics || ""}`;
-
-  if(navigator.share){
-    try{
-      await navigator.share({ title: h.title, text });
-    }catch{}
-  }else{
-    try{ await navigator.clipboard.writeText(text); }catch{}
-    elStatus.textContent = "Sem Share API: copiei ✔";
-    setTimeout(() => elStatus.textContent = "", 1400);
-  }
-});
 
 btnAminus?.addEventListener("click", () => {
   fontSize = Math.max(FONT_MIN, fontSize - FONT_STEP);
   applyFontSize();
 });
-
 btnAplus?.addEventListener("click", () => {
   fontSize = Math.min(FONT_MAX, fontSize + FONT_STEP);
   applyFontSize();
 });
 
+btnCopy?.addEventListener("click", async () => {
+  const it = items.find(x => Number(x.id) === selectedId);
+  if(!it) return;
 
+  const text = (mode === "louvores")
+    ? `${it.number} - ${it.title}\n\n${it.lyrics || ""}`
+    : `${it.title}${it.key ? " (Tom " + it.key + ")" : ""}\n\n${it.content || ""}`;
 
+  try{
+    await navigator.clipboard.writeText(text);
+    elStatus.textContent = "Copiado ✔";
+    setTimeout(() => elStatus.textContent = "", 1200);
+  }catch{}
+});
 
-// Service worker
-if("serviceWorker" in navigator){
+btnShare?.addEventListener("click", async () => {
+  const it = items.find(x => Number(x.id) === selectedId);
+  if(!it) return;
+
+  const text = (mode === "louvores")
+    ? `${it.number} - ${it.title}\n\n${it.lyrics || ""}`
+    : `${it.title}${it.key ? " (Tom " + it.key + ")" : ""}\n\n${it.content || ""}`;
+
+  if(navigator.share){
+    try{ await navigator.share({ title: it.title || "Item", text }); }catch{}
+  }
+});
+
+// DURANTE DEV LOCAL, NÃO registre SW (evita cache e erros)
+if ("serviceWorker" in navigator && location.hostname !== "127.0.0.1" && location.hostname !== "localhost") {
   window.addEventListener("load", async () => {
     try{
       const reg = await navigator.serviceWorker.register("./sw.js");
@@ -248,4 +292,4 @@ if("serviceWorker" in navigator){
   });
 }
 
-load();
+loadMode("louvores");

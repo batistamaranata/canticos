@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Louvores </title>
+  <title>Louvores</title>
   <link rel="manifest" href="./manifest.webmanifest">
   <link rel="icon" href="./icons/icon-192.png" sizes="192x192">
   <link rel="apple-touch-icon" href="./icons/icon-192.png">
@@ -19,14 +19,19 @@
         <img src="./icons/icon-192.png" alt="Louvores" class="logoImg">
       </div>
       <div>
-        <h1>Louvores</h1>
+        <h1 id="appTitle">Louvores</h1>
         <p class="muted">Pesquise por título ou por trecho</p>
       </div>
     </div>
 
     <div class="actions">
       <input id="q" type="search" placeholder="Pesquisar (ex.: 'graça', 'coração', 'Jesus')" autocomplete="off" />
-      <button id="btnClear" title="Limpar">Limpar</button>
+      <button id="btnClear" title="Limpar" type="button">Limpar</button>
+    </div>
+
+    <div class="tabs">
+      <button id="tabLouvores" class="tab active" type="button">Cânticos</button>
+      <button id="tabCifras" class="tab" type="button">Cifras</button>
     </div>
   </header>
 
@@ -39,7 +44,6 @@
       </div>
       <ul id="items"></ul>
     </section>
-
 
     <!-- TELA: DETALHE (FULLSCREEN) -->
     <section id="screenDetail" class="panel hidden" aria-hidden="true">
@@ -57,13 +61,14 @@
       <div class="detailBody">
         <h2 id="dTitle"></h2>
         <p class="muted" id="dMeta"></p>
+        <!-- Reaproveitamos este campo para louvores (letra) e cifras (cifra) -->
         <pre id="dLyrics"></pre>
       </div>
     </section>
   </main>
 
   <footer class="foot muted">
-    <p>  ©  2026 </p>
+    <p>© 2026</p>
     <span id="status"></span>
   </footer>
 

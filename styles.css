@@ -69,6 +69,11 @@ button:hover{border-color:#334155}
   overflow:hidden;
 }
 
+/* Abas (Cânticos | Cifras) */
+.tabs{ display:flex; gap:10px; margin-top:10px; }
+.tab{ flex:1; }
+.tab.active{ border-color: var(--accent); }
+
 /* Cabeçalho da lista */
 .listHeader{
   display:flex; gap:8px; align-items:center;
@@ -77,7 +82,7 @@ button:hover{border-color:#334155}
   background:rgba(17,24,39,.6);
 }
 
-/* Lista (corrigida para mobile: sem max-height bugado de vh) */
+/* Lista */
 #screenList{
   display:flex;
   flex-direction:column;
@@ -100,6 +105,9 @@ li:hover{background:rgba(17,24,39,.5)}
 li.active{background:rgba(96,165,250,.14); border-left:3px solid var(--accent)}
 li .t{font-weight:600}
 li .s{font-size:12px; color:var(--muted); margin-top:4px; line-height:1.25}
+
+/* trava o fundo quando detalhe abre */
+body.detail-open{ overflow:hidden; }
 
 /* ===== DETALHE FULLSCREEN ===== */
 #screenDetail{
@@ -140,7 +148,7 @@ li .s{font-size:12px; color:var(--muted); margin-top:4px; line-height:1.25}
 pre{
   margin:0;
   white-space:pre-wrap;
-  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; /* ótimo pra cifra */
   line-height:1.55;
   font-size:14px;
 }
@@ -152,7 +160,6 @@ pre{
   padding:10px 14px 18px;
 }
 a{color:var(--accent)}
-
 
 #screenDetail pre{
   font-size: var(--lyrics-size);
